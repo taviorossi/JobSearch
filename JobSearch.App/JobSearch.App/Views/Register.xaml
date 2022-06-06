@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JobSearch.App.Views.Register">
+    <ContentPage.Content>
+        <StackLayout >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <ImageButton Clicked="GoBack" Style="{StaticResource BackButton}"/>
+                <Label Text="JobSearch" Style="{StaticResource Title}" Grid.Column="1" />
+            </Grid>
+            <BoxView BackgroundColor="#D7CCFF" HeightRequest="1" />
+
+            <Grid VerticalOptions="CenterAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Frame StyleClass="EntryFrame" Grid.Row="0" Grid.ColumnSpan="2" >
+                    <Entry Placeholder="Nome" />
+                </Frame>
+                <Frame StyleClass="EntryFrame" Grid.Row="1" Grid.ColumnSpan="2" >
+                    <Entry Placeholder="E-mail" />
+                </Frame>
+                <Frame StyleClass="EntryFrame" Grid.Row="2" Grid.ColumnSpan="2" >
+                    <Entry Placeholder="Senha" />
+                </Frame>
+                <Button Text="Salvar" Grid.Row="3" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JobSearch.App.Views.Login"
+             >
+    <ContentPage.Content>
+        <StackLayout >
+            <Label Text="JobSearch" Style="{StaticResource Title}" />
+            <BoxView BackgroundColor="#D7CCFF" HeightRequest="1" />
+
+            <Grid VerticalOptions="CenterAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Frame StyleClass="EntryFrame" Grid.Row="0" Grid.ColumnSpan="2" >
+                    <Entry Placeholder="E-mail" />
+                </Frame>
+                <Frame StyleClass="EntryFrame" Grid.Row="1" Grid.ColumnSpan="2" >
+                    <Entry Placeholder="Senha" />
+                </Frame>
+                <Button Text="Acessar" Clicked="GoStart" Grid.Row="2" />
+                <Button Text="Cadastrar" Clicked="GoRegister" Grid.Row="2" Grid.Column="1" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

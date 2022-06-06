@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "MGbviPHx3/jDshOtKVisReqq9T/E7AC3hy+8yOqdBhb1AHlQinzzNDp8aQntzE1Z4MqyPghiskMj5kvuUUulvw==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\AppJobSearch\\JobSearch.App\\JobSearch.App\\JobSearch.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

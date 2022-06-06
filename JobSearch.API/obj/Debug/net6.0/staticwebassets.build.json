@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jesK4aOtxGkEc848rp9UlMTSPir56Hr4HPmf5mSCWCE=",
+  "Source": "JobSearch.API",
+  "BasePath": "_content/JobSearch.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

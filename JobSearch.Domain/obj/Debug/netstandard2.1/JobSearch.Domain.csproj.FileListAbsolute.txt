@@ -1,0 +1,10 @@
+C:\Dev\AppJobSearch\JobSearch.Domain\bin\Debug\netstandard2.1\JobSearch.Domain.deps.json
+C:\Dev\AppJobSearch\JobSearch.Domain\bin\Debug\netstandard2.1\JobSearch.Domain.dll
+C:\Dev\AppJobSearch\JobSearch.Domain\bin\Debug\netstandard2.1\JobSearch.Domain.pdb
+C:\Dev\AppJobSearch\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.csproj.AssemblyReference.cache
+C:\Dev\AppJobSearch\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\AppJobSearch\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.AssemblyInfoInputs.cache
+C:\Dev\AppJobSearch\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.AssemblyInfo.cs
+C:\Dev\AppJobSearch\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\AppJobSearch\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.dll
+C:\Dev\AppJobSearch\JobSearch.Domain\obj\Debug\netstandard2.1\JobSearch.Domain.pdb

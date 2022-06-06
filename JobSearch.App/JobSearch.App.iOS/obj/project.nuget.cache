@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jc26vDZdgVML4fY4SsaFNNFhih2oHDY2q1LE5BtlR/tSqDHInaD66D57QE7m11/HX81B88a21fH6/e9ArmuxYg==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\AppJobSearch\\JobSearch.App\\JobSearch.App.iOS\\JobSearch.App.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
