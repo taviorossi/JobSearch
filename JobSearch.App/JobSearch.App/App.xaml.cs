@@ -10,7 +10,14 @@ namespace JobSearch.App
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Views.Login());
+            if(App.Current.Properties.ContainsKey("User"))
+            {
+                MainPage = new NavigationPage(new Views.Start());
+            }
+            else
+            {
+                MainPage = new NavigationPage(new Views.Login());
+            }
         }
 
         protected override void OnStart()

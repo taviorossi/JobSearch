@@ -47,7 +47,7 @@
             </Style>
 
             <Style TargetType="Entry">
-                <Setter Property="BackgroundColor" Value="{StaticResource GrayBlue}"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
                 <Setter Property="TextColor" Value="{StaticResource Black}"/>
                 <Setter Property="PlaceholderColor" Value="{StaticResource DarkGrayBlue}"/>
                 <Setter Property="FontFamily" Value="MontserratRegular"/>
@@ -139,6 +139,18 @@
                 <Setter Property="HorizontalOptions" Value="Start"/>
             </Style>
 
+            <Style TargetType="RadioButton">
+                <Setter Property="TextColor" Value="{StaticResource DarkGrayBlue}"/>
+                <Setter Property="FontFamily" Value="MontserratRegular"/>
+                <Setter Property="FontSize" Value="12"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="LabelEntry">
+                <Setter Property="Padding" Value="5, 11" />
+                <Setter Property="TextColor" Value="{StaticResource DarkGrayBlue}"/>
+                <Setter Property="FontFamily" Value="MontserratRegular"/>
+                <Setter Property="FontSize" Value="12"/>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

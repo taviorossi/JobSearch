@@ -1,13 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "Jc26vDZdgVML4fY4SsaFNNFhih2oHDY2q1LE5BtlR/tSqDHInaD66D57QE7m11/HX81B88a21fH6/e9ArmuxYg==",
+  "dgSpecHash": "boFRaN0pR53VgSpH0wsz5I+DKtmVFKq0t0N/QbJKUwoW/kYy8ZWBFnSwmL+X7ihi6UnmdF2+A0BPUc3kkr3Q4w==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppJobSearch\\JobSearch.App\\JobSearch.App.iOS\\JobSearch.App.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\rg.plugins.popup\\2.0.0.3\\rg.plugins.popup.2.0.0.3.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
   ],
   "logs": []
 }

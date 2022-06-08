@@ -23,9 +23,13 @@ namespace JobSearch.Domain.Models
         [Required(ErrorMessageResourceType = typeof(JobSearch.Domain.Utility.Language.Message), ErrorMessageResourceName = "MSG_001")]
         public string CityState { get; set; }
 
-        [Display(Name = "Salary", ResourceType = typeof(JobSearch.Domain.Utility.Language.Fields))]
+        [Display(Name = "InitialSalary", ResourceType = typeof(JobSearch.Domain.Utility.Language.Fields))]
         [Required(ErrorMessageResourceType = typeof(JobSearch.Domain.Utility.Language.Message), ErrorMessageResourceName = "MSG_001")]
-        public double Salary { get; set; }
+        public double InitialSalary { get; set; }
+
+        [Display(Name = "FinalSalary", ResourceType = typeof(JobSearch.Domain.Utility.Language.Fields))]
+        [Required(ErrorMessageResourceType = typeof(JobSearch.Domain.Utility.Language.Message), ErrorMessageResourceName = "MSG_001")]
+        public double FinalSalary { get; set; }
 
         [Display(Name = "ContractType", ResourceType = typeof(JobSearch.Domain.Utility.Language.Fields))]
         [Required(ErrorMessageResourceType = typeof(JobSearch.Domain.Utility.Language.Message), ErrorMessageResourceName = "MSG_001")]
@@ -53,7 +57,9 @@ namespace JobSearch.Domain.Models
         [Display(Name = "PublicationDate", ResourceType = typeof(JobSearch.Domain.Utility.Language.Fields))]
         public DateTime PublicationDate { get; set; }
 
+        
         public int UserId { get; set; }
+
         [ForeignKey("UserId")]
         public User User { get; set; }
     }

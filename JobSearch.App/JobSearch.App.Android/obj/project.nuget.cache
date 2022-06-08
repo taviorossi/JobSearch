@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "u8R9g9WCcVXoPtle0dlLLcNEixUdpOm2FdE0aT9CtBK41zwGp8tcZ22Hp8x/pV6OG/b+GPJe6ec+s4R9t1Htcw==",
+  "dgSpecHash": "ol/5pA0CDLoR6qnolEyU48hyFvevjZ9PFZGzvxyf3C3X/0OIUuckme1oK+70WbvwhNB9dQTj3R9G6wacxANixA==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppJobSearch\\JobSearch.App\\JobSearch.App.Android\\JobSearch.App.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\rg.plugins.popup\\2.0.0.3\\rg.plugins.popup.2.0.0.3.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
@@ -61,6 +66,7 @@
     "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
     "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
     "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Users\\OctavioJoséRodrigues\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],

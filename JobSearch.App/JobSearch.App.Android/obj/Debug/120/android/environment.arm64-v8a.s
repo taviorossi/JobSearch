@@ -377,6 +377,82 @@ app_system_properties:
 .L.env.buf.84:
 	.zero	63
 	.size	.L.env.buf.84, 63
+	.type	.L.env.buf.85, @object
+.L.env.buf.85:
+	.zero	63
+	.size	.L.env.buf.85, 63
+	.type	.L.env.buf.86, @object
+.L.env.buf.86:
+	.zero	63
+	.size	.L.env.buf.86, 63
+	.type	.L.env.buf.87, @object
+.L.env.buf.87:
+	.zero	63
+	.size	.L.env.buf.87, 63
+	.type	.L.env.buf.88, @object
+.L.env.buf.88:
+	.zero	63
+	.size	.L.env.buf.88, 63
+	.type	.L.env.buf.89, @object
+.L.env.buf.89:
+	.zero	63
+	.size	.L.env.buf.89, 63
+	.type	.L.env.buf.90, @object
+.L.env.buf.90:
+	.zero	63
+	.size	.L.env.buf.90, 63
+	.type	.L.env.buf.91, @object
+.L.env.buf.91:
+	.zero	63
+	.size	.L.env.buf.91, 63
+	.type	.L.env.buf.92, @object
+.L.env.buf.92:
+	.zero	63
+	.size	.L.env.buf.92, 63
+	.type	.L.env.buf.93, @object
+.L.env.buf.93:
+	.zero	63
+	.size	.L.env.buf.93, 63
+	.type	.L.env.buf.94, @object
+.L.env.buf.94:
+	.zero	63
+	.size	.L.env.buf.94, 63
+	.type	.L.env.buf.95, @object
+.L.env.buf.95:
+	.zero	63
+	.size	.L.env.buf.95, 63
+	.type	.L.env.buf.96, @object
+.L.env.buf.96:
+	.zero	63
+	.size	.L.env.buf.96, 63
+	.type	.L.env.buf.97, @object
+.L.env.buf.97:
+	.zero	63
+	.size	.L.env.buf.97, 63
+	.type	.L.env.buf.98, @object
+.L.env.buf.98:
+	.zero	63
+	.size	.L.env.buf.98, 63
+	.type	.L.env.buf.99, @object
+.L.env.buf.99:
+	.zero	63
+	.size	.L.env.buf.99, 63
+	.type	.L.env.buf.100, @object
+.L.env.buf.100:
+	.zero	63
+	.size	.L.env.buf.100, 63
+	.type	.L.env.buf.101, @object
+.L.env.buf.101:
+	.zero	63
+	.size	.L.env.buf.101, 63
+	.type	.L.env.buf.102, @object
+.L.env.buf.102:
+	.zero	63
+	.size	.L.env.buf.102, 63
+	.type	.L.env.buf.103, @object
+.L.env.buf.103:
+	.zero	63
+	.size	.L.env.buf.103, 63
 	// Bundled assemblies data
 
 	.type	bundled_assemblies, @object
@@ -1150,7 +1226,178 @@ bundled_assemblies:
 	.zero	4
 	.xword	.L.env.buf.84	// name
 
-	.size	bundled_assemblies, 3400
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.85	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.86	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.87	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.88	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.89	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.90	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.91	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.92	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.93	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.94	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.95	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.96	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.97	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.98	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.99	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.100	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.101	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.102	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.103	// name
+
+	.size	bundled_assemblies, 4160
 	// Assembly store individual assembly data
 	.type	assembly_store_bundled_assemblies, @object
 	.global	assembly_store_bundled_assemblies
@@ -1361,7 +1608,7 @@ application_config:
 	.word	0x3	// package_naming_policy
 	.word	0xc	// environment_variable_count
 	.word	0x0	// system_property_count
-	.word	0x55	// number_of_assemblies_in_apk
+	.word	0x68	// number_of_assemblies_in_apk
 	.word	0x3f	// bundled_assembly_name_width
 	.word	0x2	// number_of_assembly_store_files
 	.word	0x1c	// number_of_dso_cache_entries
@@ -1404,7 +1651,7 @@ application_config:
 
 	.type	.L.autostr.6, @object
 .L.autostr.6:
-	.asciz	"fc7f2f07-f7cf-4246-80b4-4d5090cf39b6"
+	.asciz	"b452cccd-4b04-4676-95e8-d58c9bc4a69d"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, @object
