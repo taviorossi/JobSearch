@@ -9,7 +9,7 @@ namespace JobSearch.App.Utility.Converters
     {
         public static Double ToDouble(string value)
         {
-            if(value == null)
+            if(value != null)
             {
                 value = RemoveExtraText(value);
                 return double.Parse(value);

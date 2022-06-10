@@ -21,3 +21,4 @@ C:\Dev\AppJobSearch\JobSearch.App\JobSearch.App\bin\Debug\netstandard2.0\JobSear
 C:\Dev\AppJobSearch\JobSearch.App\JobSearch.App\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Dev\AppJobSearch\JobSearch.App\JobSearch.App\obj\Debug\netstandard2.0\JobSearch.App.csproj.CopyComplete
 C:\Dev\AppJobSearch\JobSearch.App\JobSearch.App\obj\Debug\netstandard2.0\ref\JobSearch.App.dll
+C:\Dev\AppJobSearch\JobSearch.App\JobSearch.App\obj\Debug\netstandard2.0\Utility\Controls\TagView.xaml.g.cs

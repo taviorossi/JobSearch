@@ -3,6 +3,7 @@ using JobSearch.Domain.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,36 +20,44 @@ namespace JobSearch.App.Services
             responseService.IsSuccess = response.IsSuccessStatusCode;
             responseService.StatusCode = (int)response.StatusCode;
 
-            User user = null;
             if (response.IsSuccessStatusCode)
             {
                 responseService.Data = await response.Content.ReadAsAsync<List<Job>>();
+
+                var pagination = new Pagination()
+                {
+                    IsPagination = true,
+                    TotalItems = int.Parse(response.Headers.GetValues("X-Total-Items").FirstOrDefault())
+                };
+                responseService.Pagination = pagination;
             }
             else
             {
-                string problemResponse = await response.Content.ReadAsStringAsync();
+                String problemResponse = await response.Content.ReadAsStringAsync();
                 var errors = JsonConvert.DeserializeObject<ResponseService<List<Job>>>(problemResponse);
+
+
                 responseService.Errors = errors.Errors;
             }
             return responseService;
         }
         public async Task<ResponseService<Job>> GetJob(int id)
         {
-            HttpResponseMessage response = await _client.GetAsync($"{BaseApiUrl}/api/jobs/{id}");
+            HttpResponseMessage response = await _client.GetAsync($"{BaseApiUrl}/api/Jobs/{id}");
 
             ResponseService<Job> responseService = new ResponseService<Job>();
             responseService.IsSuccess = response.IsSuccessStatusCode;
             responseService.StatusCode = (int)response.StatusCode;
 
-            User user = null;
             if (response.IsSuccessStatusCode)
             {
                 responseService.Data = await response.Content.ReadAsAsync<Job>();
             }
             else
             {
-                string problemResponse = await response.Content.ReadAsStringAsync();
+                String problemResponse = await response.Content.ReadAsStringAsync();
                 var errors = JsonConvert.DeserializeObject<ResponseService<Job>>(problemResponse);
+
                 responseService.Errors = errors.Errors;
             }
             return responseService;
@@ -67,10 +76,12 @@ namespace JobSearch.App.Services
             }
             else
             {
-                string problemResponse = await response.Content.ReadAsStringAsync();
-                var errors = JsonConvert.DeserializeObject<ResponseService<User>>(problemResponse);
+                String problemResponse = await response.Content.ReadAsStringAsync();
+                var errors = JsonConvert.DeserializeObject<ResponseService<Job>>(problemResponse);
+
                 responseService.Errors = errors.Errors;
             }
+
             return responseService;
         }
     }
